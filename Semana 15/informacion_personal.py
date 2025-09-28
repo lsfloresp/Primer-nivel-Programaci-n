@@ -54,7 +54,7 @@ print()
 
 # Verificamos si la clave "telefono" ya existe en el diccionario
 if "telefono" not in informacion_personal:
-    # Como no existe, la agregamos con un valor ficticio
+    # Como no existe, la agregamos con un valor
     informacion_personal["telefono"] = "+593992662143"
     print("Se agregó 'telefono':", informacion_personal["telefono"])
 else:
